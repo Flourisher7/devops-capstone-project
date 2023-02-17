@@ -176,5 +176,3 @@ class TestAccount(unittest.TestCase):
         account = Account()
         self.assertRaises(DataValidationError, account.deserialize, [])
 
-    def checking(self):
-        pass
